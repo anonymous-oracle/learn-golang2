@@ -1,25 +1,304 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
+
+__pycache__/
+__pypackages__/
+.*env*_
+.cache
+.coverage
+.coverage.*
+.dbenv
+.dmypy.json
+.eggs/
+.env
+.hypothesis/
+.idea_modules/
+.idea/
+.idea/**/contentModel.xml
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dataSources/
+.idea/**/dbnavigator.xml
+.idea/**/dictionaries
+.idea/**/dynamic.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator/
+.idea/**/mongoSettings.xml
+.idea/**/shelf
+.idea/**/sonarIssues.xml
+.idea/**/sonarlint/
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+.idea/caches/build_file_checksums.ser
+.idea/httpRequests
+.idea/misc.xml
+.idea/replstate.xml
+.idea/sonarlint
+.installed.cfg
+.ipynb_checkpoints
+.mypy_cache/
+.nox/
+.pdm-build/
+.pdm-python
+.pdm.toml
+.pybuilder/
+.pyre/
+.pytest_cache/
+.Python
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tmp_versions/
+.tox/
+.venv
+.vscode
+.vscode/
+.vscode/*$py.class
+.webassets-cache
+*__pycache__*
+*.a
+*.app
+*.ckpt
+*.cmd
+*.cover
+*.cred
+*.d
+*.dll
+*.dSYM/
+*.dylib
+*.egg
+*.egg-info/
+*.elf
+*.env*
 *.exe
 *.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, built with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
+*.exp
+*.gch
+*.hex
+*.i*86
+*.idb
+*.ilk
+*.iml
+*.ipr
+*.iws
+*.ko
+*.la
+*.lib
+*.lo
+*.log
+*.manifest
+*.map
+*.mo
+*.mod*
+*.o
+*.obj
 *.out
-
+*.pch
+*.pdb
+*.pot
+*.py,cover
+*.py[cod]
+*.sage.py
+*.so
+*.so.*
+*.spec
+*.su
+*.test
+*.wav
+*.x86_64
+*$py.class
+*cfg
+*pycache*
+*workspace*
+/site
+#
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   commonly ignored for libraries.
+#   For a library or package, you might want to ignore these files since the code is
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#   in version control.
+#   install all needed dependencies.
+#   intended to run in multiple environments; otherwise, check them in:
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#  Usually these files are written by a python script from a template
+# .idea/*.iml
+# .idea/misc.xml
+# .idea/modules
+# .idea/modules.xml
+# .python-version
+# *.iml
+# *.ipr
+# Android studio 3.1+ serialized cache file
+# auto-import.
+# Binaries for programs and plugins
+# Byte-compiled / optimized / DLL files
+# C extensions
+# Celery stuff
+# CMake
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Crashlytics plugin (for Android Studio and IntelliJ)
+# Created by https://www.gitignore.io/api/intellij,pycharm+all,jetbrains+all
+# Cursive Clojure plugin
+# Cython debug symbols
+# Debug files
 # Dependency directories (remove the comment below to include it)
-# vendor/
-
+# Distribution / packaging
+# Django stuff:
+# Edit at https://www.gitignore.io/?templates=intellij,pycharm+all,jetbrains+all
+# Editor-based Rest Client
+# End of https://www.gitignore.io/api/intellij,pycharm+all,jetbrains+all
+# env file
+# Environments
+# Executables
+# File-based project format
+# Flask stuff:
+# Generated files
 # Go workspace file
+# Gradle
+# Gradle and Maven with auto-import
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+# If you prefer the allow list template instead of the deny list, see community template:
+# Ignores the whole .idea folder and all .iml files
+# Installer logs
+# IntelliJ
+# IPython
+# JIRA plugin
+# Jupyter Notebook
+# Kernel Module Compile Results
+# Libraries
+# Linker output
+# Markdown Navigator plugin
+# mkdocs documentation
+# modules.xml
+# Mongo Explorer plugin
+# mpeltonen/sbt-idea plugin
+# mypy
+# Object files
+# Output of the go coverage tool, specifically when used with LiteIDE
+# pdm
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+# pipenv
+# poetry
+# Precompiled Headers
+# Prerequisites
+# PyBuilder
+# PyCharm
+# pyenv
+# PyInstaller
+# Pyre type checker
+# pytype static type analyzer
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# Rope project settings
+# SageMath parsed files
+# Scrapy stuff:
+# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
+# Sensitive or high-churn files
+# Shared objects (inc. Windows DLLs)
+# since they will be recreated, and may cause churn.  Uncomment if using
+# Sonarlint plugin
+# SonarQube Plugin
+# Sphinx documentation
+# Spyder project settings
+# Test binary, built with `go test -c`
+# Translations
+# Unit test / coverage reports
+# User-specific stuff
+# vendor/
+# When using Gradle or Maven with auto-import, you should exclude module files,
+#.idea/
+### Intellij ###
+### Intellij Patch ###
+### JetBrains+all ###
+### JetBrains+all Patch ###
+### PyCharm+all ###
+### PyCharm+all Patch ###
+#pdm.lock
+#Pipfile.lock
+#poetry.lock
+api-env
+atlassian-ide-plugin.xml
+build/
+celerybeat-schedule
+celerybeat.pid
+cmake-build-*/
+com_crashlytics_export_strings.xml
+cover/
+coverage.xml
+crashlytics-build.properties
+crashlytics.properties
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs/
+dist/
+dkms.conf
+dmypy.json
+docs/_build/
+downloads/
+eggs/
+enrollment_audios/*
+env-batch
+env-flask
+env.bak/
+env/
+ENV/
+fabric.properties
+flask-env
 go.work
 go.work.sum
-
-# env file
-.env
+htmlcov/
+instance/
+ipython_config.py
+lib/
+lib64/
+local_settings.py
+MANIFEST
+Mkfile.old
+Module.symvers
+modules.order
+modules.xml
+mypy
+nosetests.xml
+out/
+parts/
+pdm
+pdm.lock
+pip-delete-this-directory.txt
+pip-log.txt
+pipenv
+Pipfile.lock
+poetry
+poetry.lock
+pretrained_models/EncoderClassifier-3323780377799293683/*
+pretrained_models/EncoderClassifier-3987667329270844230/*
+profile_default/
+pyenv
+pytype static type analyzer
+sdist/
+share/python-wheels/
+target/
+var/
+venv.bak/
+venv/
+verification_audios/*
+wheels/
+workspace.code-workspace

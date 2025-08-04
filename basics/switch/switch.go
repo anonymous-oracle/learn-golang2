@@ -50,7 +50,7 @@ func main() {
 	// }
 	// // demonstrating fallthrough
 	// num := 2
-	
+
 	// switch {
 	// case num > 1:
 	// 	fmt.Println("Greater than 1")
@@ -69,7 +69,7 @@ func main() {
 	checkType([]int{1, 2, 3})
 }
 
-func checkType (x any){
+func checkType(x any) {
 	switch x.(type) { // for type switch fallthrough is not allowed
 	case int:
 		fmt.Println("x is an int")
@@ -79,5 +79,5 @@ func checkType (x any){
 		fmt.Println("x is a bool")
 	default:
 		fmt.Println("x is of a different type")
-}
+	}
 }

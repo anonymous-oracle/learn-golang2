@@ -1,0 +1,82 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace files
+*.code-workspace
+
+# Build directories
+bin/
+build/
+dist/
+
+# Dependency directories (e.g., for vendoring)
+vendor/
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temp files
+*.log
+/tmp/
+*.tmp
+
+# Go module and build cache (never commit module cache, but keep go.mod/sum)
+/pkg/
+**/pkg/
+**/cmd/**/vendor/
+
+# Generated code
+**/generated/
+**/generated-code/
+**/proto/**.pb.go
+**/*.pb.go
+**/*.pb.gw.go
+**/pb/**
+**/gen/**
+
+# Coverage and profiling
+coverage/
+profile.out
+cpu.prof
+mem.prof
+block.prof
+
+# Tools/Artifacts
+**/.env
+**/.env.*
+.env
+.env.*
+
+# Docker artifacts
+**/.docker/**
+**/docker/**/data/**
+
+# go test cache
+**/.testcache/
+
+# Node-related (if any frontends in examples)
+node_modules/
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon\r
+
+# Go work files (optional, if using go workspaces)
+# go.work
+# go.work.sum

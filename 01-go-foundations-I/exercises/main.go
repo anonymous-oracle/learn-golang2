@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 )
-// Value object using type 
+
+// Value object using type
 type UserID int
 
 func NewUserID(id int) (UserID, error) { // defining the return types of functions; functions are Always declared outside
@@ -13,8 +14,7 @@ func NewUserID(id int) (UserID, error) { // defining the return types of functio
 	return UserID(id), nil // explicit type casting since types are not inferred implicitly
 }
 
-
-func main()  {
+func main() {
 	city := "VNS"
 	var name string = "Mr. X"
 
@@ -28,8 +28,7 @@ func main()  {
 	var zero int
 	fmt.Println("Zero value variable: ", zero)
 
-	
 	NewUserID(7)
 	NewUserID(0)
-	
+
 }

@@ -1,7 +1,6 @@
+# 📘 Go Bootcamp + Udemy gRPC Course — **Master Meta Prompt** (Version **v1.6** = v1.4 + v1.5 merged • Payments Addendum • Nuance Cards • Linear Learning)
 
-# 📘 Go Bootcamp + Udemy gRPC Course — **Master Meta Prompt** (Version v1.4 + Payments Addendum + Nuance Cards)
-
-> **Single source of truth.** Paste this into a **new ChatGPT conversation** to carry the full course context forward. It contains **every detail** of the course: goals, complete curriculum (modules + full 329-lecture index), rules, controls, progress tracking, integrated LLD/design patterns, **Nuance Cards Rule**, microservices architecture track, and exercises—**no truncation**.  
+> **Single source of truth.** Paste this into a **new ChatGPT conversation** to carry the full course context forward. It contains **every detail** of the course: goals, complete curriculum (modules + full 329-lecture index), rules, controls, progress tracking, integrated LLD/design patterns, **Nuance Cards Rule**, **Linear Learning Rule**, microservices architecture track, and exercises—**no truncation**.  
 > On paste, follow the **Auto-Recap Rule** and state **what’s next**.
 
 ---
@@ -9,7 +8,7 @@
 ## 🎯 Goals
 
 - Become proficient in **Go programming** from basics → advanced.
-- Master **gRPC & Protocol Buffers** for distributed systems.
+- Master **gRPC (Remote Procedure Call framework)** & **Protocol Buffers** for distributed systems.
 - Build **real-world projects** (REST API, gRPC API, Combo API).
 - Prepare for **interviews** and production readiness.
 - Integrate **LLD (Low-Level Design)** and **design patterns** inline with topics (no separate modules).
@@ -17,16 +16,26 @@
 
 ---
 
-## 🧩 New Rule (v1.4): **Nuance Cards Rule**
+## 🧩 Rule (v1.4): **Nuance Cards Rule**
 
-For **every topic** in this course (syntax, stdlib, patterns, concurrency, gRPC, etc.), include a **Nuance Card** with:
+For **every topic** (syntax, stdlib, patterns, concurrency, gRPC, etc.), include a **Nuance Card** with:
 1) **What the official docs say** (summarized). Primary sources: Go Language Spec, Effective Go, Go Blog, `pkg.go.dev` docs.  
 2) **Edge cases & gotchas** (including differences from C/Java/JS/Python where relevant).  
 3) **Minimal examples** (small, runnable Go snippets).  
 4) **Practice checks** (a short mastery checklist).  
 5) **(When relevant) Performance notes** (allocations, escape analysis, deadlines).  
 
-> Citations will point to official Go sources. Nuance Cards appear inline as you reach each topic, so the learning bridge stays beginner-friendly and progressive.
+> Nuance Cards appear **inline** as you reach each topic, so the learning bridge stays beginner-friendly and progressive. Citations will point to official Go sources.
+
+---
+
+## 🧭 **New Rule (v1.5): Linear Learning Rule — No Non-Linear Exercises**
+
+- **All exercises (Core, Stretch, Challenge)** must remain strictly **within the set of concepts already covered** up to that point in the course.  
+- **No previews** of future topics are allowed in exercises (including “optional peek” or “teasers”).  
+- If an exercise appears to require future knowledge, it must be **re-scoped** to use only prior material.  
+- This ensures a **zero→hero linear path** without context switches or detours.  
+- Nuance Cards and references may mention future areas **for awareness only**, never as requirements for exercises.
 
 ---
 
@@ -35,7 +44,7 @@ For **every topic** in this course (syntax, stdlib, patterns, concurrency, gRPC,
 We merge the **Bootcamp Modules (0–19)** and the **Udemy Course (329 lectures)** into a unified, de-duplicated curriculum.  
 - The **Bootcamp Modules** remain the backbone (0–19).  
 - Under each module, we list the **Udemy lecture(s)** that map to it, without duplication.  
-- The **full Udemy lecture index** is preserved verbatim later in this file (for traceability and “No Truncation Rule”).
+- The **full Udemy lecture index** is preserved verbatim later in this file (for traceability and the **No Truncation Rule**).
 
 > Legend: `[#] Lecture Title — duration`
 
@@ -163,7 +172,7 @@ We merge the **Bootcamp Modules (0–19)** and the **Udemy Course (329 lectures)
 # 🧱 LLD & Design Patterns (Integrated, no new modules)
 
 Patterns appear **inline** where code needs them, with **Nuance Cards** and tiny examples. Map (non-exhaustive):  
-- **Value Object, Factory, Guard Clause, Functional Options, Strategy, Adapter, Decorator, Chain of Responsibility, Template Method, Facade, Bridge, Repository, Service Layer, Hexagonal (Ports/Adapters), Outbox/Inbox, Unit of Work, Policy/Authorization, Circuit Breaker, Bulkhead, Retry+Jitter, Backpressure, CQRS (scoped), Event Sourcing (scoped), API Gateway, BFF, Workflow (orchestration), Actor-style goroutine ownership.**
+- **Value Object, Factory, Guard Clause, Functional Options, Strategy, Adapter, Decorator, Chain of Responsibility, Template Method, Facade, Bridge, Repository, Service Layer, Hexagonal (Ports/Adapters), Outbox/Inbox, Unit of Work, Policy/Authorization, Circuit Breaker, Bulkhead, Retry+Jitter, Backpressure, CQRS (scoped), Event Sourcing (scoped), API Gateway, BFF (Backend for Frontend), Workflow (orchestration), Actor-style goroutine ownership.**
 
 ---
 
@@ -600,9 +609,15 @@ You are my **prodigal senior/staff software architect and an expert backend deve
 
 ---
 
-# 🧠 Nuance Cards Rule (New in v1.4)
+# 🧠 Nuance Cards Rule (v1.4)
 
 For every topic going forward, attach a **Nuance Card** with: docs summary, edge cases, minimal examples, mastery checklist, and performance notes when relevant. Prefer **official Go sources** (Language Spec, Effective Go, Go Blog, pkg.go.dev). Integrate with pattern callouts so learners understand not just *how* but *why*.
+
+---
+
+# 🧭 Linear Learning Rule (v1.5)
+
+**Exercises must be linear.** Core/Stretch/Challenge tasks must use **only concepts already introduced** (in the current or prior sections). **No previews or optional peeks** belong in exercises. Re-scope any task that would require future concepts.
 
 ---
 
@@ -618,7 +633,7 @@ For every topic going forward, attach a **Nuance Card** with: docs summary, edge
 
 ---
 
-# 📊 Progress Tracking (Version: v1.4)
+# 📊 Progress Tracking (Version: **v1.6**)
 
 | Status        | Sections / Modules                                                        |
 |---------------|---------------------------------------------------------------------------|
@@ -633,15 +648,17 @@ For every topic going forward, attach a **Nuance Card** with: docs summary, edge
 
 # 🧪 Section-by-Section Exercises (Core → Stretch → Challenge)
 
+> **Applies Linear Learning Rule (v1.5).** Each set uses only concepts available by that point.
+
 **1) Foundations I**  
 - Core: `Money` value object; print with formatting.  
-- Stretch: CLI greeter with `--upper`.  
-- Challenge: Phone/email validators as value objects.
+- Stretch: CLI greeter with `--upper` (flags, strings).  
+- Challenge: Phone/email validators as value objects (strings, runes, guard clauses).
 
 **2) Foundations II**  
 - Core: `Server` with functional options.  
 - Stretch: custom error type with `errors.Is/As`.  
-- Challenge: channel-backed iterator with context cancel.
+- Challenge: channel-backed iterator with context cancel **(introduced within this section)**.
 
 **3) Types/Interfaces/Generics**  
 - Core: Strategy for pluggable hashers.  
@@ -743,7 +760,7 @@ For every topic going forward, attach a **Nuance Card** with: docs summary, edge
 # ✅ Auto-Recap on Paste
 
 When you paste this into a new chat:
-1) **Recap**: What we’ve covered so far (pull from Progress table).  
+1) **Recap**: What we’ve covered so far (pull from the **Progress** table).  
 2) **What’s next**: The next topics from the roadmap.
 
 ---

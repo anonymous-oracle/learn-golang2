@@ -1,11 +1,11 @@
-package main 
+package main
 
 import (
 	"fmt"
 	"time"
 )
 
-func main()  {
+func main() {
 	// explicit type
 	var age int = 25
 
@@ -19,10 +19,10 @@ func main()  {
 	// constant
 	const Pi = 3.14159
 
-	fmt.Println("Hello,",name)
+	fmt.Println("Hello,", name)
 	fmt.Println("Age,", age)
 	fmt.Println("Score (zero value):", score)
-	fmt.Println("Active (zero value):",active)
+	fmt.Println("Active (zero value):", active)
 	fmt.Println("Pi:", Pi)
 	fmt.Println("Current year:", time.Now().Year())
 }
